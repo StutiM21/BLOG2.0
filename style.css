@@ -1,0 +1,14 @@
+.brand-gradient{
+    background: #70CCCF;
+    background: linear-gradient(to top, #70CCCF 0%, #FFCA96 50%, #CF7172 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+.banner-holder, .main-page-header{
+    background-image: url(img/Banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.custom-nav{
+    backdrop-filter: blur(8px);
+}
